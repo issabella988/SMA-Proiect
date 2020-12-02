@@ -16,6 +16,44 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+	<activity android:name=".Breakfast" >
+        </activity>
+
+        <activity android:name=".Appetizers" >
+        </activity>
+
+        <activity android:name=".Soup" >
+        </activity>
+
+        <activity android:name=".MainCourse" >
+        </activity>
+
+        <activity android:name=".Pizza" >
+        </activity>
+
+        <activity android:name=".Burgers" >
+        </activity>
+
+        <activity android:name=".Salads" >
+        </activity>
+
+        <activity android:name=".Seafood" >
+        </activity>
+
+        <activity android:name=".Desserts" >
+        </activity>
+
+        <activity android:name=".NonAlcoholicDrinks" >
+        </activity>
+
+        <activity
+            android:name=".finalize_order"
+            android:label="Finalize order" >
+        </activity>
+        <activity
+            android:name=".thankyou"
+            android:label="TY" >
+        </activity>
     </application>
 
 </manifest>
