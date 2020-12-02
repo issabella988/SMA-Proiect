@@ -8,7 +8,7 @@ import android.view.View
 
 class thankyou : Activity() {
     override fun onBackPressed() {
-        // do nothing.
+    
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,7 +20,7 @@ class thankyou : Activity() {
         finalize_order.old_ord_string = finalize_order.order_string + finalize_order.old_ord_string
         finalize_order.old_all_total = finalize_order.all_total
 
-        //acum se seteaza toate valorile mancarilor pe 0, pentru a se putea da o comanda noua "clean"
+
         Breakfast.english_bf = 0
         Breakfast.chicken_quiche = 0
         Breakfast.french_toast = 0
